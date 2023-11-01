@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Nazarenko Nataliia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-    <div>
-        <div>
+    <div class="wrapper">
+        <div class="main-content">
             <div>
                 <h2>Treinee/Junior Full Stack Developer</h2>
                 <h1>Nataliia Nazarenko</h1>
@@ -84,53 +89,64 @@
                  </ul>
             </div>
         </div>
-        <aside>
-            <img src="./img/my-photo.jpeg" alt="photo Nataliia Nazarenko" width="370">
-            <div>
-                <h3>Contacts</h3>
-                <ul>
-                    <li>
-                        <p>C: <a href="tel:+380933341494">+ 38 (093) 33 - 41 - 494</a></p>
-                        
-                    </li>
-                    <li>
-                        <p>E: <a href="mailto:NatalyaNazarenko.NS@gmail.com
-                            ">NatalyaNazarenko.NS@gmail.com
-                        </a></p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/NataliaNazarenko" target="_blank">Git Hub</a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/nazarenko_natali" target="_blank">Telegram</a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/natalya-nazarenko" target="_blank">Linkedin</a>
-                    </li>
-                </ul>
-                <p>Kyiv / Cherkasy, Ukraine</p>
+        <aside class="sidebar">
+            <div class="img__container">
+                <div class="line"></div>
+                <img class="img" src="./img/my-photo.jpeg" alt="photo Nataliia Nazarenko" width="370">
+            </div> 
+            <div class="sidebar__content">
+                <div class="contacts__container">
+                    <h3 class="contacts__title">Contacts</h3>
+                    <ul class="contacts__list">
+                        <li>
+                            <p class="contacts__item">
+                                <span class="contacts__type">C:</span>
+                                <a class="contacts__link" href="tel:+380933341494">+ 38 (093) 33 - 41 - 494</a>
+                            </p>
+                            
+                        </li>
+                        <li>
+                            <p class="contacts__item">
+                                <span class="contacts__type">E:</span>
+                                <a class="contacts__link" href="mailto:NatalyaNazarenko.NS@gmail.com
+                                ">NatalyaNazarenko.NS@gmail.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a class="contacts__link" href="https://github.com/NataliaNazarenko" target="_blank">Git Hub</a>
+                        </li>
+                        <li>
+                            <a class="contacts__link" href="https://t.me/nazarenko_natali" target="_blank">Telegram</a>
+                        </li>
+                        <li>
+                            <a class="contacts__link" href="https://linkedin.com/in/natalya-nazarenko" target="_blank">Linkedin</a>
+                        </li>
+                    </ul>
+                    <p>Kyiv / Cherkasy, Ukraine</p>
+                </div>
+                <div>
+                    <h3>Tech Skills</h3>
+                    <ul>
+                        <li>HTML5/CSS3/SASS</li>
+                        <li>Responsive/Adaptive design</li>
+                        <li>GIT</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>REST API</li>
+                        <li>Mongo DB</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English - Elementary</li>
+                        <li>Ukrainian - Native</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5/CSS3/SASS</li>
-                    <li>Responsive/Adaptive design</li>
-                    <li>GIT</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>REST API</li>
-                    <li>Mongo DB</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Languages</h3>
-                <ul>
-                    <li>English - Elementary</li>
-                    <li>Ukrainian - Native</li>
-                </ul>
-            </div>
+            
         </aside>
     </div>
     
